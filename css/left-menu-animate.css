@@ -1,0 +1,23 @@
+#left-menu {
+    position: fixed;
+    left: 84px;
+    top: 0px;
+    background-color: black;
+    height: 100vh;
+}
+
+.menu-hidden {
+    display: none;
+    width: 0px;
+}
+
+.menu-shown {
+    display: block;
+    width: 200px;
+}
+
+.active{
+    border-left: solid 7px #7876f8;
+    -webkit-transition: border-left 0.2s ease;
+    transition: border-left 0.2s ease;
+}
